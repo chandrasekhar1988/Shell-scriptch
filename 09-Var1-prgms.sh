@@ -1,8 +1,8 @@
 #!/bin/bash    
 #Variables 
-echo "Variables example:"
-country=India  #Assign the value directly
-echo -e "\nMy country name:" $country
+#echo "Variables example:"
+#country=India  #Assign the value directly
+#echo -e "\nMy country name:" $country
 
 #Concatenating Multiple Variables
 # Declaration of variables

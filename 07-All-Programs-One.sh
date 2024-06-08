@@ -12,7 +12,7 @@ echo $Name
 #The read command used with option -p allows you to prompt a message along with 
 #taking user input.
 read -p "Enter a number:" num
-echo “The number is: $num”
+echo "The number is: $num"
 
 #Variables 
 echo "3.Variables ex:"

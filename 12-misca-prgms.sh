@@ -1,4 +1,5 @@
 #!/bin/bash
+#Bitwise Operation Based on User Input
 read -p "Enter two numbers: " num1 num2
 read -p "Enter operation to perform (AND, OR, NOT): " op
 

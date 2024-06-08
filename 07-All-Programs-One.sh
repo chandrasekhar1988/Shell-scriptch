@@ -14,16 +14,6 @@ echo $Name
 read -p "Enter a number:" num
 echo "The number is: $num"
 
-#Variables 
-echo "3.Variables ex:"
-country=India  #Assign the value directly
-echo -e "\nMy country name:" $country
 
-#Concatenating Multiple Variables
-# Declaration of variables
-name='My name is Tom.'
-age='My age is 12.'
-
-# Concatenation
-info="${name} ${age}"
-echo "Result: $info"
+read -sp "Enter your password: " pass
+echo -e "\nYour password is: $pass"

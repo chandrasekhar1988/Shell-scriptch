@@ -13,6 +13,6 @@ age='My age is 8.'
 info="${name} ${age}"
 echo "Result: $info"
 
-va1=$1
-va2=$2
-echo "My val is $va1. My va2 is $va2."
+name=$1
+age=$2
+echo "My dear name is $name. My dear age is $age."

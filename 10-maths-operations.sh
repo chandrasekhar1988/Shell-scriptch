@@ -3,16 +3,16 @@
 #operator between defined variables and enclose them with $().
 num1=10
 num2=20
-num3=30
-sum=$(($num1+$num2+$num3))
+
+sum=$(($num1+$num2))
 echo "The Sum is: $sum"
 
-dif=$(($num3-$num1))
+dif=$(($num2-$num1))
 echo "The difference is:$dif"
 
-div=$(($num3/$num1))
+div=$(($num2/$num1))
 echo "The division is: $div"
 
 
-mod=$(($num3%$num1))
+mod=$(($num2%$num1))
 echo "The remainder is: $mod"

@@ -13,8 +13,9 @@ age='My age is 8.'
 info="${name} ${age}"
 echo "Result: $info"
 
+#Passing Values to Variables as Command Line Arguments
 name=$1
 klass=$2
 marks=$3
 echo "My dear name is $name. My dear class is $klass.My dear marks is $marks."
-# we have to give run command with values sh 09-Var1-prgms.sh chandu 23
+# we have to give run command with values sh 09-Var1-prgms.sh chandu mca 70

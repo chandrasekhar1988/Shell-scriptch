@@ -14,6 +14,7 @@ info="${name} ${age}"
 echo "Result: $info"
 
 name=$1
-age=$2
-echo "My dear name is ${name}. My dear age is ${age}."
+klass=$2
+marks=$3
+echo "My dear name is $name. My dear class is $klass.My dear marks is $marks."
 # we have to give run command with values sh 09-Var1-prgms.sh chandu 23

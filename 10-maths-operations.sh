@@ -14,4 +14,4 @@ num1=30
 num2=5
 div=$(($num3/$num1))
 
-echo "The division is: $div
+echo "The division is: $div"

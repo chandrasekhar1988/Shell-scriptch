@@ -1,18 +1,10 @@
 #!/bin/bash
-#read num
 
-#echo "The number is : $num"
+echo "1.This is My practice program to Check all commands" 
 
-#name=chandu
-#age=12
+echo -e "\n2.Enter your Name : "
+read Name
 
-#echo $name  $age
+echo "3.I entered my name in Input as:" 
+echo $Name
 
-echo "my name is chandra" 
-
-echo -e "/nenter your age"
-read age
-
-echo "my age is" 
-echo $age
-echo "**************"

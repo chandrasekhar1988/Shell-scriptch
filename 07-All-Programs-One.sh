@@ -10,3 +10,6 @@ echo $Name
 
 #Variables 
 
+country=India  #Assign the value directly
+echo $country
+

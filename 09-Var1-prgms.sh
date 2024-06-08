@@ -15,4 +15,4 @@ echo "Result: $info"
 
 name=$1
 age=$2
-echo "My dear name is $name. My dear age is $age."
+echo "My dear name is ${name}. My dear age is ${age}."

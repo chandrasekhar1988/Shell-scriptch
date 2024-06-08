@@ -10,6 +10,9 @@ echo "The Sum is: $sum"
 dif=$(($num2-$num1))
 echo "The difference is:$dif"
 
+mul=$(($num2*$num1))
+echo "The multiplication is:$mul"
+
 div=$(($num2/$num1))
 echo "The division is: $div"
 

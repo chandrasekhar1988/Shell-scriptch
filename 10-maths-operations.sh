@@ -1,5 +1,5 @@
 #!/bin/bash
-#Addition/Subtract two numbers using the +/- 
+#Arithmetic Operators (+/- etc)
 #operator between defined variables and enclose them with $().
 num1=10
 num2=30
@@ -16,6 +16,8 @@ echo "The multiplication is:$mul"
 div=$(($num2/$num1))
 echo "The division is: $div"
 
-
 mod=$(($num2%$num1))
 echo "The remainder is: $mod"
+
+
+

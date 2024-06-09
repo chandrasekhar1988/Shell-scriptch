@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#sample
 echo "Please enter username : "
 
 read USERNAME 

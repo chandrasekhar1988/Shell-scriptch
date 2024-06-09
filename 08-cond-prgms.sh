@@ -1,4 +1,5 @@
 #!/bin/bash    
+#if..elif..else..fi statement (Else If ladder)
 echo "Please enter a number: "
 read num
 
@@ -9,3 +10,6 @@ elif [ $num -lt 0 ]; then
 else
   echo "$num is zero"
 fi
+
+
+

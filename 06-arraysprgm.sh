@@ -10,14 +10,11 @@ echo "Given array: ${arr[*]}"
 echo "Printing Array again : ${arr[@]}" #both same
 
 # To print the first element
-echo "The first element: "
-echo "${arr[0]}"
+echo "The first element: ${arr[0]}"
 
 #array with strings
 FRUITS=("Apple" "Banana" "Mango")
-echo "First Value is : ${FRUITS[0]}"
 echo "Second Value is : ${FRUITS[1]}"
-echo "Third Value is : ${FRUITS[2]}"
 
 
 

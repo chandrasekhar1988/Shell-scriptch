@@ -6,7 +6,7 @@ do
 echo $a
 a=$((a - 1))
 done
-echo “Out of the loop”
+echo "Out of the loop"
 
 
 

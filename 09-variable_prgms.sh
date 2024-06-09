@@ -14,7 +14,7 @@ echo "Result: $info"
 aspirant=$1
 score=$2
 echo "aspirant_name is --> $aspirant. scored--> $score"
-# we have to give run command with values sh 09-variable_prgms.sh chandu 70
+# we have to give run command with values sh 09-variable_prgms.sh Chandu 75
 
 
 

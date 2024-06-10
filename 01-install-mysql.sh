@@ -9,7 +9,7 @@ else
 echo "you are root user"
 fi
 
-yum install mysqwl -y
+yum install mysql -y
 #To confirm/check whether mysql is installed or not
 if [ $? -ne 0 ]
 then
@@ -18,6 +18,8 @@ exit 1  # $?-you have to give other than 0
 else
 echo "Installing MYSQL is success"
 fi
+
+
 
 
 

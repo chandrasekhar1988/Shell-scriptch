@@ -10,10 +10,10 @@ LOGFILE="/tmp/$0-$TIMESTAMP.log"
 VALIDATE(){
 if [ $1 -ne 0 ] 
 then
-echo "ERROR: $2..... ${RED} is failed ${ENDCOLOR}"
+echo -e "ERROR: $2..... ${RED} is failed ${ENDCOLOR}"
 exit 1  
 else
-echo "$2..... ${GREEN} is success ${ENDCOLOR}"
+echo -e "$2..... ${GREEN} is success ${ENDCOLOR}"
 fi
 }
 if [ $ID -ne 0 ] 
